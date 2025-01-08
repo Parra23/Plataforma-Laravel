@@ -9,6 +9,3 @@ use App\Http\Controllers\saludar;
 // });
 
 Route::get('/', HomeController::class);
-
-Route::get('/saludar/{nombre}',[saludar::class, 'Saludar']);
-
